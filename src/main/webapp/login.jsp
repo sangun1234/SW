@@ -41,7 +41,8 @@
 		<div class="col-lg-4"></div>
 		<div class="col-lg-4">
 			<div class="jumbotron" style="padding-top: 20px;">
-				<form method="post" action="loginAction.jsp">
+			<!-- submit 시 loginAction.jsp로 action되어짐.-->
+				<form method="post" action="loginAction.jsp"> 
 					<h3 style="text-align: center;">로그인 화면</h3>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="ID"
